@@ -1,0 +1,13 @@
+module Program_Hangman
+{
+
+	interface HangMan{
+		
+		attribute long ques_no;
+
+		string get_answer(in string number);
+
+		string get_question(in string number);
+	};
+
+};
